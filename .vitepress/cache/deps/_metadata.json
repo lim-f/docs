@@ -1,0 +1,47 @@
+{
+  "hash": "0fbad37a",
+  "browserHash": "5d5e19b2",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "37ca82af",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../node_modules/.pnpm/@vue+devtools-api@6.5.0/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "725148ae",
+      "needsInterop": false
+    },
+    "highlight.js/lib/core": {
+      "src": "../../../node_modules/.pnpm/highlight.js@11.8.0/node_modules/highlight.js/es/core.js",
+      "file": "highlight__js_lib_core.js",
+      "fileHash": "2fee71f2",
+      "needsInterop": false
+    },
+    "highlight.js/lib/languages/javascript": {
+      "src": "../../../node_modules/.pnpm/highlight.js@11.8.0/node_modules/highlight.js/es/languages/javascript.js",
+      "file": "highlight__js_lib_languages_javascript.js",
+      "fileHash": "86227119",
+      "needsInterop": false
+    },
+    "eveit": {
+      "src": "../../../node_modules/.pnpm/eveit@0.0.1/node_modules/eveit/eveit.min.js",
+      "file": "eveit.js",
+      "fileHash": "7a2bbbc7",
+      "needsInterop": true
+    },
+    "lz-string": {
+      "src": "../../../node_modules/.pnpm/lz-string@1.5.0/node_modules/lz-string/libs/lz-string.js",
+      "file": "lz-string.js",
+      "fileHash": "5ffbdf4c",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}
