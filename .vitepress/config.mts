@@ -11,14 +11,14 @@ const isProd = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
   title: `Lim Docs`,
-  description: "Mark Framework Easier to Use",
+  description: "Make the Framework Easier to Use",
   base: isProd ? '/docs/': '/',
   outDir: './docs',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://shiyix.cn/images/lim-logo.ico' }],
     ['meta', { property: 'og:type', content: 'website' }],
     // ['meta', { property: 'og:url', content: ogUrl }],
-    ['meta', { property: 'og:description', content: "Mark Framework Easier to Use" }],
+    ['meta', { property: 'og:description', content: "Make the Framework Easier to Use" }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:site', content: '@lim_f' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
@@ -106,7 +106,7 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lim-f' }
+      { icon: 'github', link: 'https://github.com/lim-f/react-lim' }
     ],
     footer: {
       message: 'LimF 2022-present',

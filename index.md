@@ -3,7 +3,7 @@ layout: home
 hero:
   name: Lim
   text: Less is More
-  tagline: Mark Framework Easier to Use
+  tagline: Make the Framework Easier to Use
   image:
     src: /lim-logo.png
     alt: Lim
